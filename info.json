@@ -1,0 +1,17 @@
+{
+    "tapping": {
+        "hold_on_other_key_press": false,
+        "hold_on_other_key_press_per_key": false,
+        "permissive_hold": false,
+        "permissive_hold_per_key": false,
+        "retro": false,
+        "retro_per_key": false,
+        "term": 200,
+        "term_per_key": false,
+        "toggle": 5
+    },
+    "caps_word": {
+        "enabled": true,
+        "double_tap_shift_turns_on": true
+    }
+}
