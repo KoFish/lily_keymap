@@ -1,4 +1,3 @@
-#include <string.h>
 #include QMK_KEYBOARD_H
 #include "quantum.h"
 
@@ -13,7 +12,9 @@ enum layers {
 };
 
 #ifdef OLED_ENABLE
+#include <string.h>
 #include <stdio.h>
+#include "progmem.h"
 // NOTE: Most of the OLED code was originally written by Soundmonster for the Corne,
 // and has been copied directly from `crkbd/soundmonster/keymap.c`
 
